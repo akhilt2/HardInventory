@@ -55,9 +55,9 @@ app.on("ready", () => {
   );
 });
 
-app.on("window-all-closed", () => {
-  app.quit();
-});
+// app.on("window-all-closed", () => {
+//   app.quit();
+// });
 
 // ipcMain.on("setBarcodeData", function(event, data) {
 //   let webContentsID = data.webContentsID;

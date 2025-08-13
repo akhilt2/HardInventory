@@ -14,7 +14,7 @@ const watching = compiler.watch({}, (err, stats) => {
     childProcess
       .spawn(electron, ["."], { stdio: "inherit" })
       .on("close", () => {
-        watching.close();
+        // watching.close();
       });
   }
 });
